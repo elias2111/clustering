@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
- import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 from model import preprocessing, clustering
+ 
 
 st.title("Clustering App")
 
