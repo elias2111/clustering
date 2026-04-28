@@ -1,4 +1,4 @@
-import steamlit as st
+import streamlit as st
 import pandas as pd
 import  matplotlib as plt 
 from sklearn.metrics import silhouette_score, davies_bouldin_score
